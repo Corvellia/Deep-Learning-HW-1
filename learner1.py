@@ -5,8 +5,8 @@ from PrettyPrint import *
 from LinearLearner import *
 from Validation import *
 
-eta = .00001
-iterations = 50000
+eta = .000001
+iterations = 80000
 
 E = file_loader("chocodata.txt")
 V = file_loader("chocovalid.txt")
